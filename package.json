@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "npx serve .",
-    "start": "npx serve .",
-    "build": "echo \"Static site ready for Vercel\""
+    "start": "npx serve public",
+    "build": "node scripts/build.js"
   }
 }
